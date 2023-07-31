@@ -9,7 +9,7 @@ use std::io::{Read, Write};
 use serde::{Serialize, Deserialize};
 
 
-const TARGET_EMAIL: &str = "buhaytza2005@gmail.com";
+const TARGET_EMAIL: &str = "<EMAIL YOU WANT TO SEND TO>";
 
 
 
