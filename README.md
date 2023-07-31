@@ -1,8 +1,10 @@
-## Simple test app to check caching of tokens
+## Simple test app to check caching of tokens using [graph-rs-sdk](https://github.com/sreeise/graph-rs-sdk) with the device code flow
 
 
-To install
+Disclaimer
+> This assumes that all the setup has been completed as per the documentation provided by the sdk and docs from Microsoft (adding the app to Azure with the correct permissions and required scopes)
 
+### Instalation
 
 `git clone https://github.com/buhaytza2005/graph-mail`
 
