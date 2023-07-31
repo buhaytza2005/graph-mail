@@ -24,7 +24,7 @@ fn get_oauth() -> OAuth {
         .authorize_url(&device_code_endpoint)
         .refresh_token_url(&token_endpoint)
         .access_token_url(&token_endpoint)
-        .add_scope("Files.Read.All")
+        .add_scope("Mail.ReadWrite")
         .add_scope("offline_access");
 
     oauth
